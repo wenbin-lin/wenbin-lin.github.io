@@ -1,6 +1,6 @@
 ## About me
 
-I am Wenbin Lin. a second year PhD student in School of Software, Tsinghua University. My advisor is Prof. [Feng Xu](http://xufeng.site/). Previously, I obtained my bachelor's degree in Department of Automation at Tsinghua University in 2020.
+I am Wenbin Lin, a second year PhD student in School of Software, Tsinghua University. My advisor is Prof. [Feng Xu](http://xufeng.site/). Previously, I obtained my bachelor's degree from Department of Automation, Tsinghua University in 2020.
 
 My research focuses on 3D vision and graphics, especially 3D reconstruction, performance capture and so on.
 
