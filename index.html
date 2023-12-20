@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Wenbin Lin</title>
+
+    <meta name="author" content="Wenbin Lin">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Wenbin Lin
+                </p>
+                <p>
+                  I am a 4th year PhD student in School of Software, Tsinghua University advised by Prof. <a href="http://xufeng.site">Feng Xu</a>. Previously, I obtained my bachelor's degree from Department of Automation, Tsinghua University in 2020.
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:lwb20@mails.tsinghua.edu.cn">Email</a> &nbsp;/&nbsp;
+                  <!-- <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp; -->
+                  <!-- <a href="data/bio.txt">Bio</a> &nbsp;/&nbsp; -->
+                  <a href="https://scholar.google.com/citations?hl=en&user=3mglTkAAAAAJ">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/wenbin-lin/">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:40%;max-width:40%">
+                <a href="images/lwb.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/lwb.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <h2>Education</h2>
+              <p>
+              </p>
+              <table style="font-size: 16px;">
+                <tbody>
+                <tr>
+                  <td>Ph.D.<span style="margin-left:20px;"></span></td>
+                  <td>2020.08 ~ present<span style="margin-left:20px;"></span></td>
+                  <td>School of Software, Tsinghua University</td>
+                </tr>
+                <tr>
+                  <td>B.S.<span style="margin-left:20px;"></span></td>
+                  <td>2016.08 ~ 2020.06<span style="margin-left:20px;"></span></td>
+                  <td>Department of Automation, Tsinghua University</td>
+                </tr>
+              </tbody></table>
+            </td>
+          </tr>
+        </tbody></table>
+        
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Publications</h2>
+                <p>
+                  My research focuses on 3D vision and graphics, especially 3D human digitalization, 3D reconstruction and animation.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+            <tr onmouseout="ra_stop()" onmouseover="ra_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='recon_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/RA_teaser.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/RelightableAvatar.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function ra_start() {
+                    document.getElementById('recon_image').style.opacity = "1";
+                  }
+        
+                  function ra_stop() {
+                    document.getElementById('recon_image').style.opacity = "0";
+                  }
+                  ra_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://wenbin-lin.github.io/RelightableAvatar-page/">
+                  <span class="papertitle">Relightable and Animatable Neural Avatars from Videos</span>
+                </a>
+                <br>
+                <strong>Wenbin Lin</strong>, <a href="https://chengwei-zheng.github.io/">Chengwei Zheng</a>, Jun-Hai Yong, <a href="http://xufeng.site">Feng Xu</a>
+                <br>
+                <em>AAAI</em>, 2024
+                <br>
+                <a href="https://wenbin-lin.github.io/RelightableAvatar-page/">project page</a>
+                /
+                <a href="https://www.youtube.com/watch?v=asxefE2Ey6E">video</a>
+                /
+                <a href="https://arxiv.org/abs/">paper</a>
+                <p></p>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="images/EditableNeRF.png" alt="clean-usnob" width="160" height="160">
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://chengwei-zheng.github.io/EditableNeRF/">
+                  <span class="papertitle">EditableNeRF: Editing Topologically Varying Neural Radiance Fields by Key Points</span>
+                </a>
+                <br>
+                <a href="https://chengwei-zheng.github.io/">Chengwei Zheng</a>, <strong>Wenbin Lin</strong>, <a href="http://xufeng.site">Feng Xu</a>
+                <br>
+                <em>CVPR</em>, 2023
+                <br>
+                <a href="https://chengwei-zheng.github.io/EditableNeRF/">project page</a>
+                /
+                <a href="https://www.youtube.com/watch?v=Eu2twgbg4kI">video</a>
+                /
+                <a href="https://arxiv.org/abs/2212.04247">paper</a>
+                <p></p>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="images/selfocc.png" alt="clean-usnob" width="160" height="160">
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://chengwei-zheng.github.io/pdf/selfocc.pdf">
+                  <span class="papertitle">A Self-occlusion Aware Lighting Model for Real-time Dynamic Reconstruction</span>
+                </a>
+                <br>
+                <a href="https://chengwei-zheng.github.io/">Chengwei Zheng</a>, <strong>Wenbin Lin</strong>, Feng Xu
+                <br>
+                <em>TVCG</em>, 2022
+                <br>
+                <a href="https://www.youtube.com/watch?v=RsuqNR8BTks">video</a>
+                /
+                <a href="https://chengwei-zheng.github.io/pdf/selfocc.pdf">paper</a>
+                <p></p>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="images/OccFusion.png" alt="clean-usnob" width="160" height="160">
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://wenbin-lin.github.io/OcclusionFusion/">
+                  <span class="papertitle">OcclusionFusion: Occlusion-aware Motion Estimation for Real-time Dynamic 3D Reconstruction</span>
+                </a>
+                <br>
+                <strong>Wenbin Lin</strong>, <a href="https://chengwei-zheng.github.io/">Chengwei Zheng</a>, Jun-Hai Yong, <a href="http://xufeng.site">Feng Xu</a>
+                <br>
+                <em>CVPR</em>, 2022
+                <br>
+                <a href="https://wenbin-lin.github.io/OcclusionFusion/">project page</a>
+                /
+                <a href="https://www.youtube.com/watch?v=UC4k43dlp2w">video</a>
+                /
+                <a href="https://arxiv.org/abs/2203.07977">paper</a>
+                <p></p>
+              </td>
+            </tr>
+
+          
+          </tbody></table>
+
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <h2>Services</h2>
+              <p>
+                I have served as a reviewer of CVPR, ICCV.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            
+            
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  The website template was borrowed from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>. 
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
